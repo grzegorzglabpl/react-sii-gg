@@ -14,10 +14,9 @@ const App = () => {
   return (
     <Layout className="App">
       <Header className="header">
-        <A href="/user">Users Page</A>&nbsp;
-        <A href="/about">About Page</A>&nbsp;
-        <A href="/contact">Contacts Page</A>&nbsp;
-        <A href="/o-mnie">O mnie</A>
+        <A href="/login" className="link">Login</A>
+        <A href="/rejestracja" className="link">Rejestracja</A>
+        <A href="/jak-to-dziala" className="link">Jak to dziala</A>
       </Header>
       <Content className="content">{routeResult}</Content>
       <Footer className="footer">Footer</Footer>

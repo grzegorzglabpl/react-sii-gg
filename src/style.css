@@ -6,3 +6,7 @@ p {
 .footer {
   color: red;
 }
+
+.link {
+  padding-right: 2px;
+}
