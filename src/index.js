@@ -10,8 +10,12 @@ const App = () => {
   return (
     <div className="App">
       <A href="/user">Users Page</A>
+      <br/>
       <A href="/about">About Page</A>
+      <br/>
       <A href="/contact">Contacts Page</A>
+      <br/>
+      <A href="/o-mnie">O mnie</A>
       {routeResult}
     </div>
   );
