@@ -13,14 +13,14 @@ const App = () => {
 
   return (
     <Layout className="App">
-      <Header>
-        <A href="/user">Users Page</A>
-        <A href="/about">About Page</A>
-        <A href="/contact">Contacts Page</A>
+      <Header className="header">
+        <A href="/user">Users Page</A>&nbsp;
+        <A href="/about">About Page</A>&nbsp;
+        <A href="/contact">Contacts Page</A>&nbsp;
         <A href="/o-mnie">O mnie</A>
       </Header>
-      <Content>{routeResult}</Content>
-      <Footer>Footer</Footer>
+      <Content className="content">{routeResult}</Content>
+      <Footer className="footer">Footer</Footer>
     </Layout>
   );
 };
