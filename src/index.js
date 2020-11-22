@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 import "./style.css";
 import { Layout } from "antd";
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 const App = () => {
   const routeResult = useRoutes(routes);
