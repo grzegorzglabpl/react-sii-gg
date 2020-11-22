@@ -4,7 +4,7 @@ import { useRoutes, A } from "hookrouter";
 import "./style.css";
 import routes from "./router";
 
-function App() {
+const App = () => {
   const routeResult = useRoutes(routes);
 
   return (
@@ -15,7 +15,7 @@ function App() {
       {routeResult}
     </div>
   );
-}
+};
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
