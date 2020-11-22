@@ -14,12 +14,30 @@ const App = () => {
   return (
     <Layout className="App">
       <Header className="header">
-        <A href="/login" className="link">Login</A>
-        <A href="/rejestracja" className="link">Rejestracja</A>
-        <A href="/jak-to-dziala" className="link">Jak to dziala</A>
+        <A href="/logowanie" className="link">
+          Logowanie
+        </A>
+        <A href="/rejestracja" className="link">
+          Rejestracja
+        </A>
+        <A href="/jak-to-dziala" className="link">
+          Jak to dziala
+        </A>
       </Header>
       <Content className="content">{routeResult}</Content>
-      <Footer className="footer">Footer</Footer>
+      <Footer className="footer">
+        <A href="/formularz-kontaktowy" className="link">
+          Formularz Kontaktowy
+        </A>
+        <A href="/newsletter" className="link">
+          Newsletter
+        </A>
+        <address className="adres">
+          <div>Nazwa Firmy: Firma Freelancerska</div>
+          <div>Adres Firmy: Firmowa 11, Warszawa</div>
+          <div>Telefon kontaktowy: +48 112 112 112 </div>
+        </address>
+      </Footer>
     </Layout>
   );
 };

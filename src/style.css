@@ -7,6 +7,20 @@ p {
   color: red;
 }
 
+.content {
+  padding: 20px;
+}
+
 .link {
   padding-right: 2px;
+}
+
+.adres {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.h1 {
+
 }
