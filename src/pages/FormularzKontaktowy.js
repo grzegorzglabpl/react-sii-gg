@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Input, Button, Radio } from "antd";
+import { Form, Input, Button, Radio, Checkbox } from "antd";
 
 const FormularzKontaktowy = () => {
   const [form] = Form.useForm();
@@ -47,8 +47,23 @@ const FormularzKontaktowy = () => {
         <Form.Item label="Nazwisko">
           <Input placeholder="proszę podać nazwisko" />
         </Form.Item>
-        <Form.Item label="Nazwisko">
-          <Input placeholder="proszę podać nazwisko" />
+        <Form.Item label="Email">
+          <Input placeholder="proszę podać adres email" />
+        </Form.Item>
+        <Form.Item label="Telefon">
+          <Input placeholder="proszę podać numer telefonu" />
+        </Form.Item>
+        <Form.Item label="JestemRobotemAlboNie">
+          <Radio.Group>
+            <Radio value={1}>Jestem robotem</Radio>
+            <br/>
+            <Radio value={2}>Nie jetem robotem</Radio>
+          </Radio.Group>
+        </Form.Item>
+        <Form.Item label="Zgody">
+          <Checkbox>Zgoda RODO</Checkbox>
+          <br/>
+          <Checkbox>Zapisz się na newsletter a otrzymasz 10% zniżki</Checkbox>
         </Form.Item>
         <Form.Item {...buttonItemLayout}>
           <Button type="primary">Wyślij formularz</Button>
