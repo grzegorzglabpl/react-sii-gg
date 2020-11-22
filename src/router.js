@@ -6,7 +6,8 @@ import About from "./pages/About";
 const routes = {
   "/": () => <Users />,
   "/about": () => <About />,
-  "/contact": () => <Contact />
+  "/contact": () => <Contact />,
+  "/user": () => <Users />
 };
 
 export default routes;
