@@ -17,7 +17,6 @@ const routes = {
   "/formularz-kontaktowy": () => <FormularzKontaktowy />,
   "/logowanie": () => <Logowanie />,
   "/newsletter": () => <Newsletter />,
-  "/rejestracja": () => <Rejestracja />,
   "/jak-to-dziala": () => <JakToDziala />
 };
 
